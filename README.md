@@ -1,5 +1,5 @@
 ### Next.js Products List SPA
-this is a Next.js with typescript spa that shows a list of products getched from a remote api endpoint
+this is a Next.js with typescript spa that shows a list of products fetched from a remote api endpoint
 
 <img width="1279" alt="Screenshot 2024-08-21 at 01 09 41" src="https://github.com/user-attachments/assets/233d0a85-3672-4c76-8bdc-6866a0463dec">
 
