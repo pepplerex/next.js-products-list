@@ -4,7 +4,7 @@ import "react-loading-skeleton/dist/skeleton.css";
 
 const ProductSkeleton: React.FC = () => {
   return (
-    <div className="container">
+    <div className="skeleton-cnt">
       <div className="navigation">
         <Skeleton height={40} width={300} className="search-input-skeleton" />
         <Skeleton height={40} width={200} className="sort-select-skeleton" />

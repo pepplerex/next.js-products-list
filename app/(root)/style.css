@@ -25,10 +25,24 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
+.skeleton-cnt {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .container {
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
+
+  /* min-height: 100vh; Ensure the container takes up at least the full viewport height */
+  background-image: url("https://res.cloudinary.com/dkfjp7ws7/image/upload/v1724204138/mzpuvokfnbmzi0u1yigz.png");
+  background-size: contain; /* Scale the image to cover the entire container */
+  background-position: center; /* Center the image */
+  background-attachment: fixed; /* Make the background image fixed */
+  background-repeat: no-repeat; /* Prevent repeating the image */
+  overflow-y: auto; /* Allow vertical scrolling within the container */
 }
 
 .container h1 {
@@ -36,7 +50,7 @@ p {
   margin-bottom: 20px;
 }
 
-.container .navigation {
+.navigation {
   display: flex;
   align-items: center;
   gap: 20px;

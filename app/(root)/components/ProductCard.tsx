@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 type Product = {
@@ -17,7 +18,15 @@ const ProductCard: React.FC<Product> = ({
 }) => {
   return (
     <div className="product-card" key={id}>
-      <img src={thumbnail} alt={title} className="product-image" />
+      <Image
+        src={thumbnail}
+        alt={title}
+        width={300}
+        height={200}
+        layout="responsive"
+        objectFit="cover"
+        className="product-image"
+      />
       <h3 className="product-title">{title}</h3>
       <p className="product-description">{description}</p>
       <p className="product-price">${price.toFixed(2)}</p>
