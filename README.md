@@ -1,37 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Next.js Products List SPA
+this is a Next.js with typescript spa that shows a list of products fetched from a remote api endpoint
 
-## Getting Started
+<img width="1279" alt="Screenshot 2024-08-21 at 01 09 41" src="https://github.com/user-attachments/assets/233d0a85-3672-4c76-8bdc-6866a0463dec">
 
-First, run the development server:
+### Features
+- Skeleton loading screen when fetching data
+- Product Search feature
+- Product sorting by price (asc, desc) and name (A-Z)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# next.js-products-list
+### getting started
+- clone this repo to your local
+- cd into the folder and run npm install. this will install the application dependencies
+- after installation, run npm run dev to start the local dev server running on port 3000 by default.
+- the application should be accessible on http://localhost:3000
